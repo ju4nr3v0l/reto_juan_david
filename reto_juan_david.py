@@ -55,3 +55,9 @@ def diagSintoma(paciente: dict) -> dict:
                 resultado["resultado"] = 'No tiene síntomas'
                 resultado["estado"] = False
     return resultado
+
+
+# print(diagSintoma({'id_diagnostico':'d-001','diag_ta':'Si','diag_pa':'No','diag_do':'No','diag_dg':'Si','diag_dc':'Si'}))
+# print(diagSintoma({'id_diagnostico':'d-002','diag_ta':'Si','diag_pa':'No','diag_do':'No','diag_dg':'No','diag_dc':'No'}))
+# print(diagSintoma({'id_diagnostico':'d-003','diag_ta':'No','diag_pa':'No','diag_do':'No','diag_dg':'No','diag_dc':'No'}))
+# print(diagSintoma({'id_diagnostico':'d-003','diag_ta':'Si','diag_pa':'Si','diag_do':'Si','diag_dg':'Si','diag_dc':'Si'}))
